@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BsccBartlixPlayer", "src\BsccBartlixPlayer\BsccBartlixPlayer.csproj", "{249A59AA-F352-4CDD-A112-081F2DAAF4DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "global", "global", "{11C943FE-D838-484B-B535-1D005E926D4D}"
+	ProjectSection(SolutionItems) = preProject
+		global\GlobalInfo.targets = global\GlobalInfo.targets
+		global\stylecop.json = global\stylecop.json
+		global\Stylecop.ruleset = global\Stylecop.ruleset
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BsccBartlixPlayer.Logic", "src\BsccBartlixPlayer.Logic\BsccBartlixPlayer.Logic.csproj", "{B386B444-C118-4D1F-B8B2-B3ED9EB3D6EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{249A59AA-F352-4CDD-A112-081F2DAAF4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249A59AA-F352-4CDD-A112-081F2DAAF4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249A59AA-F352-4CDD-A112-081F2DAAF4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249A59AA-F352-4CDD-A112-081F2DAAF4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B386B444-C118-4D1F-B8B2-B3ED9EB3D6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B386B444-C118-4D1F-B8B2-B3ED9EB3D6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B386B444-C118-4D1F-B8B2-B3ED9EB3D6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B386B444-C118-4D1F-B8B2-B3ED9EB3D6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {053FE7C7-AC0F-4C00-9532-704CFE9A98A9}
+	EndGlobalSection
+EndGlobal

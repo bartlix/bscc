@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <Import Project="..\..\global\GlobalInfo.targets" />
+
+  <ItemGroup>
+    <PackageReference Include="NBattleshipCodingContest.Logic" Version="0.10.1-alpha" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.333">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BsccBartlixPlayer.Logic\BsccBartlixPlayer.Logic.csproj" />
+  </ItemGroup>
+
+</Project>
